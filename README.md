@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# Game Tazk  
+![Imagem do meu projeto](./screenshot.png)  
+Projeto em ReactJS e TypeScript, com a finalidade de criar listas de tarefas personalizadas para jogos.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Recursos Principais  
+- Busca de jogos usando a API da RAWG.  
+- Possibilidade de criar cards individuais para cada jogo, contendo listas de tarefas personalizadas.  
+- Adição de tarefas diretamente em um modal, com suporte a múltiplas entradas automáticas ao pressionar Enter.  
+- Design responsivo utilizando TailwindCSS.  
 
-Currently, two official plugins are available:
+## Como Usar  
+- Você pode acessar o projeto [aqui](https://seulink.github.io/game-tazk).  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Executar Localmente  
 
-## Expanding the ESLint configuration
+Clone o projeto:  
+```bash  
+git clone https://github.com/seuusuario/game-tazk.git  
+```  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Vá para o diretório do projeto:  
+```bash  
+cd game-tazk  
+```  
 
-- Configure the top-level `parserOptions` property like this:
+Instale as dependências:  
+```bash  
+npm install  
+```  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Inicie o servidor de desenvolvimento:  
+```bash  
+npm run dev  
+```  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Tecnologias Utilizadas  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Back end:  
+- **Node.js** com TypeScript, gerenciando lógica e persistência.  
+- **Prisma ORM** para manipulação do banco de dados SQLite.  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Front end:  
+- **ReactJS** com Vite para performance e simplicidade no desenvolvimento.  
+- **TailwindCSS** para estilização.  
+- **shadcn-ui** para modais e checkboxes.  
+- **Sonner** e **Toast** para notificações.  
+- **Lucide-React** para ícones.  
+
+## Autores  
+
+- [@seuusuario](https://github.com/seuusuario)  
+
+## Feedback  
+Se você tiver algum feedback, entre em contato pelo email: seuemail@exemplo.com  
+
+---
+
+Se precisar de algo mais, é só avisar! 😊
