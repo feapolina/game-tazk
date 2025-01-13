@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      base: "/game-tazk",
+      base: "/game-tazk/",
     },
   },
 });

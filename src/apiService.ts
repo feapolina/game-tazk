@@ -1,3 +1,13 @@
+/**
+ * Faz o fetch da api da RAWG.
+ *
+ * @param {string} query - O valor contido no input para realizar a busca na API com esse valor.
+ * @returns {Promise<GameData[]>} - O array de jogos que batem a com a busca.
+ * @example
+ * const newTodo = await addTodo(1, "Complete o desafio diário");
+ * console.log(newTodo);
+ */
+
 const API_KEY = import.meta.env.VITE_RAWG_API_KEY;
 const BASE_URL = "https://api.rawg.io/api/games";
 
@@ -6,7 +16,6 @@ type GameData = {
   image: string;
 };
 
-// fazendo fetch da api
 export async function fetchGames(query: string): Promise<GameData[]> {
   try {
     const response = await fetch(
