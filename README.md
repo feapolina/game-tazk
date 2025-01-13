@@ -12,14 +12,14 @@ Projeto em ReactJS e TypeScript, com a finalidade de criar listas de tarefas per
 
 ## Como Usar
 
-- Você pode acessar o projeto [aqui](https://seulink.github.io/game-tazk).
+- Você pode acessar o projeto [aqui](https://feapolina.github.io/game-tazk).
 
 ## Executar Localmente
 
 Clone o projeto:
 
 ```bash
-git clone https://github.com/seuusuario/game-tazk.git
+git clone https://github.com/feapolina/game-tazk.git
 ```
 
 Vá para o diretório do projeto:
@@ -45,7 +45,6 @@ npm run dev
 ### Back end:
 
 - **Node.js** com TypeScript, gerenciando lógica e persistência.
-- **Prisma ORM** para manipulação do banco de dados SQLite.
 
 ### Front end:
 
@@ -57,12 +56,10 @@ npm run dev
 
 ## Autores
 
-- [@seuusuario](https://github.com/seuusuario)
+- [@feapolina](https://github.com/feapolina)
 
 ## Feedback
 
 Se você tiver algum feedback, entre em contato pelo email: seuemail@exemplo.com
 
----
-
-Se precisar de algo mais, é só avisar! 😊
+--
