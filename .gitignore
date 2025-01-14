@@ -5,6 +5,7 @@
 
 # Build outputs
 /dist
+!/dist
 /build
 
 # Environment variables
