@@ -60,6 +60,5 @@ npm run dev
 
 ## Feedback
 
-Se você tiver algum feedback, entre em contato pelo email: seuemail@exemplo.com
-
+Se você tiver algum feedback, entre em contato.
 --
