@@ -12,7 +12,7 @@ Projeto em ReactJS e TypeScript, com a finalidade de criar listas de tarefas per
 
 ## Como Usar
 
-- Você pode acessar o projeto [aqui](https://feapolina.github.io/game-tazk).
+- Você pode acessar o projeto [aqui](https://feapolina.github.io/game-tazk). EM PROGRESSO
 
 ## Executar Localmente
 
