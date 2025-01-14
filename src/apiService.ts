@@ -27,6 +27,7 @@ export async function fetchGames(query: string): Promise<GameData[]> {
     }
 
     const data = await response.json();
+    
     return data.results.map((game: any) => ({
       name: game.name,
       image: game.background_image || "",
