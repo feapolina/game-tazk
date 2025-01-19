@@ -3,11 +3,6 @@
 /.pnp
 .pnp.js
 
-# Build outputs
-/dist
-!/dist
-/build
-
 # Environment variables
 .env
 .env.local
